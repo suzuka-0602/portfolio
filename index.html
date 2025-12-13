@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="自己紹介と学習した参考書・経歴・パブリケーションをまとめたポートフォリオ">
+  <title>自己紹介ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">メインコンテンツへスキップ</a>
+  <header class="hero">
+    <div class="container hero__content">
+      <div>
+        <p class="eyebrow">Hello, I am</p>
+        <h1 class="hero__title">Your Name</h1>
+        <p class="hero__subtitle">職種や専攻などの肩書きを記入してください。興味のある分野や取り組みたいテーマを短く添えられます。</p>
+        <div class="hero__links">
+          <a class="button" href="mailto:you@example.com">Contact</a>
+          <a class="link" href="https://example.com" target="_blank" rel="noreferrer">Website</a>
+        </div>
+      </div>
+      <div class="hero__summary">
+        <p>ここに自己紹介文を入れます。現在取り組んでいること、強み、好きな技術などを2〜3文でまとめると読みやすくなります。</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="container" role="main">
+    <section class="section">
+      <div class="section__header">
+        <h2>学習した参考書リスト</h2>
+        <p class="section__hint">書籍名・著者・学んだポイントを簡単に残しましょう。</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Example Book Title</h3>
+          <p class="muted">著者名・出版社 (発行年)</p>
+          <ul>
+            <li>習得した内容や学びになったトピックを箇条書きで記載。</li>
+            <li>実践した演習・作成したプロジェクトをメモ。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Another Reference</h3>
+          <p class="muted">著者名・出版社 (発行年)</p>
+          <ul>
+            <li>重要だったチャプターやキーワード。</li>
+            <li>理解度を高めるためのメモやリンク。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>追加の書籍タイトル</h3>
+          <p class="muted">著者名・出版社 (発行年)</p>
+          <ul>
+            <li>分野やスキルとの関連性を記載。</li>
+            <li>次に読みたい関連書籍もリスト化。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <h2>経歴</h2>
+        <p class="section__hint">学歴や職務経験を時系列でまとめます。</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2023 - 現在</div>
+          <div class="timeline__content">
+            <h3>会社名 / 役職</h3>
+            <p>担当業務や達成した成果を記載します。プロジェクトやキーワードがあれば箇条書きも有効です。</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2021 - 2023</div>
+          <div class="timeline__content">
+            <h3>研究室 / 大学院</h3>
+            <p>研究テーマ・主要な手法・発表した学会などを簡潔に記載します。</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2017 - 2021</div>
+          <div class="timeline__content">
+            <h3>大学 / 学科</h3>
+            <p>専門分野や興味を持った科目、関わったサークル・プロジェクトなど。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <h2>パブリケーションリスト</h2>
+        <p class="section__hint">論文・記事・登壇資料など公開物をまとめます。</p>
+      </div>
+      <div class="publications">
+        <article class="publication">
+          <div>
+            <h3>論文タイトルや記事名</h3>
+            <p class="muted">掲載媒体 / 会議名, 発行年</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">NLP</span>
+          </div>
+          <p>概要: 研究や記事の焦点、貢献、使用したデータセットや実験内容を短くまとめます。</p>
+          <a class="link" href="https://example.com/publication" target="_blank" rel="noreferrer">詳細を見る</a>
+        </article>
+
+        <article class="publication">
+          <div>
+            <h3>別の発表タイトル</h3>
+            <p class="muted">掲載媒体 / 会議名, 発行年</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Backend</span>
+            <span class="tag">Security</span>
+          </div>
+          <p>概要: 技術的な貢献や結果を1〜2文で記します。可能であればリンクも添付しましょう。</p>
+          <a class="link" href="https://example.com/slides" target="_blank" rel="noreferrer">スライド・資料</a>
+        </article>
+
+        <article class="publication">
+          <div>
+            <h3>メディア掲載・受賞歴</h3>
+            <p class="muted">媒体名, 発行年</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Award</span>
+            <span class="tag">Interview</span>
+          </div>
+          <p>概要: 受賞理由や掲載内容のポイントを記載します。プレスリリースへのリンクも歓迎。</p>
+          <a class="link" href="https://example.com/interview" target="_blank" rel="noreferrer">掲載ページ</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p class="muted">© 2024 Your Name. All rights reserved.</p>
+      <div class="footer__links">
+        <a class="link" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="link" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="link" href="https://note.com" target="_blank" rel="noreferrer">Blog</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
